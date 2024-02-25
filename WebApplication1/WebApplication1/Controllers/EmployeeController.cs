@@ -4,11 +4,11 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    public class ProductController : Controller
+    public class EmployeeController : Controller
     {
         private readonly TaskDbContext _context;
 
-        public ProductController(TaskDbContext context)
+        public EmployeeController(TaskDbContext context)
         {
             _context = context;
         }
